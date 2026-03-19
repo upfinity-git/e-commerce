@@ -1,6 +1,6 @@
 from bson import ObjectId
 from config.db import get_db
-from models.order import Order
+from models.orders import Order
 from models.cart import Cart
 from controllers.cart_controller import clear_cart
 
